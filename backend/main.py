@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import jd_router
+#from app.api import jd_router
+from .app.api import jd_router
 
 # Create the FastAPI application instance
 app = FastAPI(
