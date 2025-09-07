@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+motor
+pymongo
+langchain
+langchain-community
+langchain-groq
+transformers
+beautifulsoup4
+PyPDF2
+python-docx
+httpx
