@@ -1,0 +1,52 @@
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (sensitive)
+.env
+.env.*
+
+# Virtual environments (local)
+venv/
+.venv/
+env/
+
+# MongoDB / DB files (local or temporary)
+*.db
+
+# Logs
+*.log
+
+# Uvicorn or other server PID files
+*.pid
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# React frontend build output
+frontend/build/
+
+# Node modules for frontend
+frontend/node_modules/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+
+# Miscellaneous
+*.sqlite3
+*.db
+
+# Python packaging/build
+build/
+dist/
+*.egg-info/
+.egg/
